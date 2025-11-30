@@ -7,6 +7,10 @@ A collection of BepInEx mods for Chill With You
 
 ### YtDownloader
 
+<img width="513" height="555" alt="스크린샷 2025-12-01 041530" src="https://github.com/user-attachments/assets/2488cc9d-177a-48ce-b82e-cc81c083d3d2" />
+
+
+
 YouTube에서 음악을 다운받아 게임에 추가할 수 있는 모드
 
 **기능**
