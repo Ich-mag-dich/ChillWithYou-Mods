@@ -1,0 +1,25 @@
+# 파일 구조
+root = true
+
+# ====================
+# [*.cs] C# 파일에 적용될 규칙
+# ====================
+
+[*.cs]
+
+# 인덴테이션 (들여쓰기) 규칙
+indent_style = space       ; 탭(tab) 대신 공백(space) 사용
+indent_size = 4            ; 공백 4칸으로 들여쓰기
+
+# 코드 스타일 규칙
+csharp_new_line_before_open_brace = all     ; 모든 괄호 { 앞에 새 줄 사용 (C# 표준)
+
+# C# 언어 규칙 (var 키워드 사용)
+# 'var' 키워드를 내장 타입 (int, string 등)에 대해 사용하지 않도록 강제
+csharp_style_var_for_built_in_types = false:suggestion
+
+# 'this.' 접두사 사용 규칙
+ide_style_qualification_for_field = true:warning ; 필드에 'this.' 접두사 사용 경고
+
+# 네이밍 규칙 (선택 사항)
+dotnet_naming_style.private_field_style.required_prefix = _ ; private 필드에 '_' 접두사 요구
