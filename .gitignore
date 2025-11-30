@@ -1,12 +1,11 @@
 # Build results
-bin/
-obj/
-
+[Bb]in/
+[Oo]bj/
 [Dd]ebug/
 [Rr]elease/
 
 # Visual Studio
-.vs/
+. vs/
 *.user
 *.suo
 *.userprefs
