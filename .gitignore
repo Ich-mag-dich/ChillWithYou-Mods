@@ -1,6 +1,7 @@
 # Build results
-[Bb]in/
-[Oo]bj/
+bin/
+obj/
+
 [Dd]ebug/
 [Rr]elease/
 
