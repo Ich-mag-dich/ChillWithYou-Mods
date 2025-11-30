@@ -5,8 +5,8 @@
 [Rr]elease/
 
 # Visual Studio
-. vs/
-*. user
+.vs/
+*.user
 *.suo
 *.userprefs
 *.sln.docstates
