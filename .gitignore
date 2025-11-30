@@ -1,0 +1,8 @@
+# DLL
+*. dll
+
+# BepInEx dll 포함
+!BepInEx/**/*.dll
+
+# 루트 dll 포함 (winhttp.dll)
+!/*.dll
