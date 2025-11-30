@@ -1,8 +1,28 @@
-# DLL
-*. dll
+# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
 
-# BepInEx dll 포함
-!BepInEx/**/*.dll
+# Visual Studio
+. vs/
+*. user
+*.suo
+*.userprefs
+*.sln.docstates
 
-# 루트 dll 포함 (winhttp.dll)
-!/*.dll
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# NuGet
+packages/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 압축 파일
+*.zip
