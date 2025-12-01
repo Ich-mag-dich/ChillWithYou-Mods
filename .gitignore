@@ -5,7 +5,7 @@
 [Rr]elease/
 
 # Visual Studio
-. vs/
+.vs/*
 *.user
 *.suo
 *.userprefs
@@ -13,21 +13,27 @@
 
 # Rider
 .idea/
-
-# VS Code
-.vscode/
-
 # NuGet
 packages/
-
-# OS
-.DS_Store
-Thumbs.db
-
-# 압축 파일
-*.zip
-
-
-
 # htm 파일 무시
 *. htm
+*.zip
+*.exe
+*.dll
+*.pdb
+.DS_Store
+Thumbs.db
+# 기타 무시할 항목
+.vs/
+.vscode/
+packages/
+*.log
+
+Chill_with_You_Lo-Fi_Story_kr/BepInEx/cache/
+Chill_with_You_Lo-Fi_Story_kr/BepInEx/core/
+Chill_with_You_Lo-Fi_Story_kr/BepInEx/patchers/
+.doorstop_version
+doorstop_config.ini
+changelog.txt
+README (AutoTranslator).md
+!Chill_with_You_Lo-Fi_Story_kr/BepInEx/plugins/**
